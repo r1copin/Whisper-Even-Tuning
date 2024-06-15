@@ -1,6 +1,6 @@
 # Whisper-Even-Tuning
 
-The work on fine-tuning Whisper model on Even ASR datasets.
+The work on fine-tuning Whisper-small model on Even ASR datasets.
 
 ## Datasets
 1. [Even Speech Biblical](https://huggingface.co/datasets/tbkazakova/even_speech_biblical) - collection of high-quality audio recordings of biblical texts. Total ~67 minutes of audio fragments and its transcription.
@@ -16,3 +16,7 @@ Notebooks have further instructions on running the project in Colab or local mac
 ## Results
 1. On Biblical dataset best WER: 30.27
 2. On Pakendorf dataset best WER: 67.99
+
+## HuggingFace repositories
+1. [Whisper-small Biblical](https://huggingface.co/VovaK13/whisper-small-even)
+2. [Whisper-small Pakendorf](https://huggingface.co/tanya-kta/whisper-small-pakendorf)
